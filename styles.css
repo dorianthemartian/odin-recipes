@@ -1,0 +1,14 @@
+* {
+    background-color: antiquewhite;
+}
+.header, p {
+    text-align: center;
+}
+.header {
+    font-family: Georgia, Arial, serif;
+}
+
+p {
+    font-size: 26px;
+    font-family: Garamond, Arial, serif;
+    }
