@@ -1,15 +1,23 @@
 * {
     background-color: antiquewhite;
 }
-.header, p {
+.header, .links {
     text-align: center;
 }
 .header {
     font-family: Georgia, Arial, serif;
+    font-size: 40px;
 }
 
-p {
+.links {
     font-size: 26px;
     font-family: Garamond, Georgia, Arial, serif;
     }
+.des-header {
+    font-size: 30px;
+}
+
+.description {
+    font-family: 'Times New Roman', Times, serif;
+}
 
