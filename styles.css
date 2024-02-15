@@ -1,8 +1,12 @@
 * {
     background-color: antiquewhite;
 }
-.header, .links {
+.header {
     text-align: center;
+    background-color: rgb(210, 154, 154);
+    margin: 40px auto;
+    width: fit-content;
+    padding: 12px;
 }
 .header {
     font-family: Georgia, Arial, serif;
@@ -12,7 +16,14 @@
 .links {
     font-size: 26px;
     font-family: Garamond, Georgia, Arial, serif;
+    display: flex;
+    justify-content: center;
     }
+
+ a {
+    margin: 0 16px;
+ }
+
 .des-header {
     font-size: 30px;
 }
