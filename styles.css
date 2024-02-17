@@ -1,6 +1,14 @@
 * {
     background-color: antiquewhite;
 }
+.recipe {
+    border: 10px solid rgb(210, 154, 154);
+    display: flex;
+}
+.recipe-container {
+    flex: 1;
+    padding-left: 12px;
+}
 .header {
     text-align: center;
     background-color: rgb(210, 154, 154);
@@ -26,12 +34,10 @@
 
 .des-header {
     font-size: 30px;
-    display: inline;
 }
 
 .description {
     font-family: 'Times New Roman', Times, serif;
-    margin: 60%;
     display: inline;
 }
 
