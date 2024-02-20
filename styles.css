@@ -1,14 +1,10 @@
 * {
     background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.recipe {
-    border: 10px solid rgb(210, 154, 154);
-    display: flex;
-}
-.recipe-container {
-    flex: 1;
-    padding-left: 12px;
-}
+
 .header {
     text-align: center;
     background-color: rgb(210, 154, 154);
@@ -31,14 +27,33 @@
     background-color: rgb(210, 154, 154);
     padding: 8px;
  }
+ 
+ .recipe {
+    border: 10px solid rgb(210, 154, 154);
+    display: flex;
+}
+.recipe-container {
+    display: flex;
+    border: 2px solid;
+}
+.description-container {
+    width: 200px;
+}
 
 .des-header {
     font-size: 30px;
+    text-align: center;
 }
 
 .description {
     font-family: 'Times New Roman', Times, serif;
-    display: inline;
+    margin: 10px;
+}
+.ingredients {
+    flex: 1;
+}
+.steps {
+    flex: 1;
 }
 
 .ench {
