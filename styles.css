@@ -30,32 +30,31 @@
  
  .recipe {
     border: 10px solid rgb(210, 154, 154);
+    height: 400px;
     display: flex;
 }
 .recipe-container {
     display: flex;
-    border: 2px solid;
 }
-.description-container {
-    width: 200px;
+
+.description-container, .ingredients, .steps {
+    margin: 8px 14px;
+    padding: 8px;
+    flex: 1;
 }
 
 .des-header {
-    font-size: 30px;
     text-align: center;
 }
 
 .description {
     font-family: 'Times New Roman', Times, serif;
-    margin: 10px;
-}
-.ingredients {
-    flex: 1;
-}
-.steps {
-    flex: 1;
 }
 
+h2 {
+    text-align: center;
+    margin: 10px 0;
+}
 .ench {
     color:rgb(154, 54, 54);
 }
